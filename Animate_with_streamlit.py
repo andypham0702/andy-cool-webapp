@@ -14,7 +14,7 @@ For all your Streamlit questions, check out their [documentation](https://docs.s
 
 
 '''
-## Plot COVID-19 Cases visualization :mask::mask::mask:
+## Plot COVID-19 Cases visualization :mask: :mask: :mask:
 '''
 
 #Covid Cases Visualization 
