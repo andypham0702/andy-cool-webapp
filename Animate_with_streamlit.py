@@ -1,5 +1,5 @@
-import plotly.express as px
 import streamlit as st
+import plotly.express as px
 import pandas as pd
 import joblib
 
@@ -41,8 +41,8 @@ covid = covid[covid['Country'].isin(country)]
 fig2 = px.bar(covid, x= 'Country', y= 'Confirmed', color= 'Country', title='Global COVID-19 Cases',
 				range_y=[0, 35000], animation_frame='Date', animation_group='Country')
 
-#fig2.layout.updatemenus[0].button[0].args[1]['frame']['duration'] = 30
-#fig2.layout.updatemenus[0].button[0].args[1]['transition']['duration'] = 5
+fig2.layout.updatemenus[0].button[0].args[1]['frame']['duration'] = 30
+fig2.layout.updatemenus[0].button[0].args[1]['transition']['duration'] = 5
 
 fig2.update_layout(width=800)
 
