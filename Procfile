@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run Animate_with_streamlit.py
+web: sh setup.sh && streamlit run webapp.py
